@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center; /* Centers the <main> horizontally */
+    align-items: center; /* Centers the <main> vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0px;
+    flex-direction: column;
+  }
+  main {
+    display: flex;
+    flex-direction: column; /* Arrange child sections vertically */
+    gap: 20px; /* Adds spacing between sections */
+    width: 80%; /* Main container width */
+    background-color: #f9f9f9; /* Background color */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional border for visualization */
+    flex-direction: row;
+    flex: auto;
+  }    
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
